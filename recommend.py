@@ -37,10 +37,19 @@ user_preferences['Western'] = 1
 def get_movie_score(movie_features,user_preferences):
     return np.dot(movie_features,user_preferences)
 
-sample_movie_features = movies_df.loc[648][movie_categories]
+#sample_movie_features = movies_df.loc[648][movie_categories]
 
-print sample_movie_features
+#print sample_movie_features
 
-user_predicted_score = np.dot(sample_movie_features,user_preferences.values())
+#user_predicted_score = np.dot(sample_movie_features,user_preferences.values())
 
-print user_predicted_score
+#print user_predicted_score
+
+print movies_df[movie_categories].head(1)
+print user_preferences.values()
+
+def get_movie_recommendation(user_preferences,number):
+    movies_df['score'] = movies_df[movie_categories].apply(get_movie_score,args=([user_preferences.values()]),axis=1)
+    return movies_df.sort_values(by=['score'],ascending=False)['movie_title'][:number]
+
+print get_movie_recommendation(user_preferences,10)
