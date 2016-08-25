@@ -37,9 +37,9 @@ user_preferences['Western'] = 1
 def get_movie_score(movie_features,user_preferences):
     return np.dot(movie_features,user_preferences)
 
-sample_movie_features = movies_df.loc[0][movie_categories]
+sample_movie_features = movies_df.loc[647][movie_categories]
 
-#print sample_movie_features
+print sample_movie_features
 
 user_predicted_score = np.dot(sample_movie_features,user_preferences.values())
 
