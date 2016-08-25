@@ -33,3 +33,6 @@ user_preferences['Sci-Fi'] = 5
 user_preferences['War'] = 3
 user_preferences['Thriller'] = 2
 user_preferences['Western'] = 1
+
+def get_movie_score(movie_features,user_preferences):
+    return np.dot(movie_features,user_preferences)
