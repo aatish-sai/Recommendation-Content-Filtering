@@ -5,4 +5,8 @@ movies_df = pd.read_csv('ml-1m/movies.dat',header=None,sep='::',names=['movie_id
 
 movies_df = pd.concat([movies_df,movies_df.movie_genre.str.get_dummies(sep='|')],axis=1)
 
-print movies_df.head()
+#print movies_df.head()
+
+movie_categories = movies_df.columns[3:]
+
+print movies_df.loc[0]
