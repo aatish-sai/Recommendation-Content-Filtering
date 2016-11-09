@@ -1,0 +1,22 @@
+1599                    Devil's Advocate, The (1997)
+1244                                     Diva (1981)
+69                        From Dusk Till Dawn (1996)
+1197                         Army of Darkness (1993)
+1742                              Wild Things (1998)
+1598          I Know What You Did Last Summer (1997)
+1683                        Big Lebowski, The (1998)
+899                                   Charade (1963)
+2139                       Lady Vanishes, The (1938)
+2269    I Still Know What You Did Last Summer (1998)
+Name: movie_title, dtype: object
+1599            Crime|Horror|Mystery|Thriller
+1244    Action|Drama|Mystery|Romance|Thriller
+69        Action|Comedy|Crime|Horror|Thriller
+1197    Action|Adventure|Comedy|Horror|Sci-Fi
+1742             Crime|Drama|Mystery|Thriller
+1598                  Horror|Mystery|Thriller
+1683            Comedy|Crime|Mystery|Thriller
+899           Comedy|Mystery|Romance|Thriller
+2139          Comedy|Mystery|Romance|Thriller
+2269                  Horror|Mystery|Thriller
+Name: movie_genre, dtype: object

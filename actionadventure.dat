@@ -1,0 +1,22 @@
+1244                                          Diva (1981)
+1192    Star Wars: Episode VI - Return of the Jedi (1983)
+2253                                       Soldier (1998)
+1178    Star Wars: Episode V - The Empire Strikes Back...
+727                                        Twister (1996)
+3636                                Bird on a Wire (1990)
+1197                              Army of Darkness (1993)
+460                                    Hard Target (1993)
+166                                   First Knight (1995)
+588                                         Batman (1989)
+Name: movie_title, dtype: object
+1244    Action|Drama|Mystery|Romance|Thriller
+1192      Action|Adventure|Romance|Sci-Fi|War
+2253     Action|Adventure|Sci-Fi|Thriller|War
+1178        Action|Adventure|Drama|Sci-Fi|War
+727         Action|Adventure|Romance|Thriller
+3636        Action|Adventure|Romance|Thriller
+1197    Action|Adventure|Comedy|Horror|Sci-Fi
+460           Action|Adventure|Crime|Thriller
+166            Action|Adventure|Drama|Romance
+588              Action|Adventure|Crime|Drama
+Name: movie_genre, dtype: object
